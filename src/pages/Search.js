@@ -8,15 +8,15 @@ import Alert from "../components/Alert";
 class Search extends Component {
   state = {
     search: "",
-    breeds: [],
+    books: [],
     results: [],
     error: ""
   };
 
-  // When the component mounts, get a list of all available base books and update this.state.books
+  // When the component mounts, get a list of all available books and update this.state.books
   componentDidMount() {
-    API.getBaseBreedsList()
-      .then(res => this.setState({ breeds: res.data.message }))
+    API.getBooksList()
+      .then(res => this.setState({ books: res.data.message }))
       .catch(err => console.log(err));
   }
 
@@ -26,7 +26,7 @@ class Search extends Component {
 
   handleFormSubmit = event => {
     event.preventDefault();
-    API.getDogsOfBreed(this.state.search)
+    API.getBooksofName(this.state.search)
       .then(res => {
         if (res.data.status === "error") {
           throw new Error(res.data.message);
@@ -49,7 +49,7 @@ class Search extends Component {
           <SearchForm
             handleFormSubmit={this.handleFormSubmit}
             handleInputChange={this.handleInputChange}
-            breeds={this.state.breeds}
+            books={this.state.books}
           />
           <SearchResults results={this.state.results} />
         </Container>
