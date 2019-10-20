@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Google-Mern-BookApp/static/css/main.07e6d928.chunk.css",
+    "main.js": "/Google-Mern-BookApp/static/js/main.0e7f386d.chunk.js",
+    "main.js.map": "/Google-Mern-BookApp/static/js/main.0e7f386d.chunk.js.map",
+    "runtime-main.js": "/Google-Mern-BookApp/static/js/runtime-main.fd612d44.js",
+    "runtime-main.js.map": "/Google-Mern-BookApp/static/js/runtime-main.fd612d44.js.map",
+    "static/js/2.7a883396.chunk.js": "/Google-Mern-BookApp/static/js/2.7a883396.chunk.js",
+    "static/js/2.7a883396.chunk.js.map": "/Google-Mern-BookApp/static/js/2.7a883396.chunk.js.map",
+    "index.html": "/Google-Mern-BookApp/index.html",
+    "precache-manifest.e26410374449e350a40bc3e7611bb2a8.js": "/Google-Mern-BookApp/precache-manifest.e26410374449e350a40bc3e7611bb2a8.js",
+    "service-worker.js": "/Google-Mern-BookApp/service-worker.js",
+    "static/css/main.07e6d928.chunk.css.map": "/Google-Mern-BookApp/static/css/main.07e6d928.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd612d44.js",
+    "static/js/2.7a883396.chunk.js",
+    "static/css/main.07e6d928.chunk.css",
+    "static/js/main.0e7f386d.chunk.js"
+  ]
+}
